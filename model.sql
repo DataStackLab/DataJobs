@@ -57,3 +57,8 @@ SELECT * FROM job_applied;
 
 ALTER TABLE job_applied
 ALTER COLUMN contact_name TYPE VARCHAR(255);
+
+ALTER TABLE job_applied
+DROP COLUMN contact_name;
+
+SELECT * FROM job_applied;
