@@ -14,7 +14,6 @@ CREATE TABLE public.skills_dim
     type TEXT
 );
 
--- Create job_postings_fact table with primary key
 CREATE TABLE public.job_postings_fact
 (
     job_id INT PRIMARY KEY,
