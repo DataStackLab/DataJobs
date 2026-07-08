@@ -1,4 +1,3 @@
--- Create company_dim table with primary key
 CREATE TABLE public.company_dim
 (
     company_id INT PRIMARY KEY,
@@ -8,7 +7,6 @@ CREATE TABLE public.company_dim
     thumbnail TEXT
 );
 
--- Create skills_dim table with primary key
 CREATE TABLE public.skills_dim
 (
     skill_id INT PRIMARY KEY,
