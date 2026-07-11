@@ -11,12 +11,6 @@ data/cleaned/*
 postgres.session.sql
 sql_course.session.sql
 .env
-/.vscode
-
-.vscode/
-
-/csv_files
-/csv_files/*
 
 # Keep folders
 !data/raw/.gitkeep
