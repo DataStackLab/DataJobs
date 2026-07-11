@@ -1,0 +1,17 @@
+.vscode/
+*.log
+.idea/
+.DS_Store
+Thumbs.db
+
+data/raw/*
+data/processed/*
+data/cleaned/*
+
+postgres.session.sql
+sql_course.session.sql
+
+# Keep folders
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/processed/.gitkeep
